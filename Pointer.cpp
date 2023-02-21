@@ -11,6 +11,14 @@ int main () {
     cout << *nP << endl;
     *nP = 6;
     cout << *nP << endl;
+    cout << n << endl;
+
+    int v;
+    int *ptr = &v;
+    *ptr = 70;
+
+    cout << 
+    &v << endl;
 
     return 1;
 }
