@@ -12,15 +12,16 @@ int main() {
     // cout << &luckyNumbers[2] << endl;
     // cout << *(luckyNumbers + 1) << endl;
 
-    for (int i = 0; i <= 4; i++)
-    {
-        cout << "Number: ";
-        cin >> luckyNumbers[i];
-    }
+    // for (int i = 0; i <= 4; i++)
+    // {
+    //     cout << "Number: ";
+    //     cin >> luckyNumbers[i];
+    // }
 
-    for (int i = 0; i <= 5;i++) {
-        cout << "Number entered is : " << *(luckyNumbers + i) << endl;
-    }
-        return 0;
+    // for (int i = 0; i <= 5;i++) {
+    //     cout << "Number entered is : " << *(luckyNumbers + i) << endl;
+    // }
+
+    return 0;
 }
   

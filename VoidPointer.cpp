@@ -26,13 +26,18 @@ switch(type) {
 int main() 
 {
 // void pointer
-int number = 5;
-char letter = 'a';
+// int number = 5;
+// char letter = 'a';
 // printNumber(&number);
 // printChar(&letter);
 
-print(&letter, 'c');
-print(&number, 'i');
+// print(&letter, 'c');
+// print(&number, 'i');
 
-return 1;
+    // int v;
+    // int *ptr = &v;
+    // *ptr = 100;
+    // cout << ptr << endl;
+
+    return 1;
 }
