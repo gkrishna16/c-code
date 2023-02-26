@@ -1,10 +1,13 @@
 #include<stdio.h>
 
-int main () {
+void Increment(int* p) {
+    *p = (*p) + 1;
+}
 
-    int a = 1025;
-    int *p = &a;
-    printf("size of integer is %d of the integer.\n", sizeof(int));
 
-    return 1;
+int main() {
+    int a;
+    a = 10;
+    Increment(&a);
+    printf("%d\n", a);   
 }
