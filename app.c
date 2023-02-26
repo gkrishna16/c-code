@@ -2,11 +2,9 @@
 
 int main () {
 
-    int a;
-    int *p;
-    p = (int *)malloc(sizeof(int));
+    int a = 1025;
+    int *p = &a;
+    printf("size of integer is %d of the integer.\n", sizeof(int));
 
-    int a = 100;
-    printf("%d", a);
     return 1;
 }

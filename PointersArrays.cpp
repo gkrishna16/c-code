@@ -22,6 +22,7 @@ int main() {
     //     cout << "Number entered is : " << *(luckyNumbers + i) << endl;
     // }
 
+    cout << "it is the main idea of Selhi" << endl;
     return 0;
 }
   
