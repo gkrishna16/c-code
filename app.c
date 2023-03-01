@@ -1,12 +1,9 @@
 #include<stdio.h>
+#include<string.h>
 
-void Increment(int* p) {
-    *p = (*p) + 1;
-}
 
-int main() {
-    int a;
-    a = 10;
-    Increment(&a);
-    printf("%d\n", a);   
+int main() 
+{
+
+  printf("AZ900\n");
 }
