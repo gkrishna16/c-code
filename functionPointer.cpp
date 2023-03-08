@@ -24,7 +24,6 @@ void sortAscending(vector<int> & numbersVector) {
 
 int main() 
 {
-
     int a = 100;
     int *pA = &a;
 
