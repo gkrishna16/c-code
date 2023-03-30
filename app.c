@@ -65,7 +65,6 @@ void PrintStar (int n )
 
 void insertionSort(int *A, int size) 
 {
-    // insertion sort algortth inserts the value after comparing ther value to the other ones located at the left side of the array.
     for (int i = 1; i < size;i++)
     {
         int insertion = A[i];
@@ -79,23 +78,34 @@ void insertionSort(int *A, int size)
     }   
 }
 
+
+void PrintStar1 (int n) 
+{
+    for (int i =0;i< n;i++)
+    {
+        for (int space = 1;space <= n-i; space++)
+        {
+            printf(" ");
+        }
+
+     for (int star = 0; star < 2*i + 1; star++)
+     {
+        printf("*");
+     }
+        printf("\n");
+    }
+}
+
+
 int main() 
 {
-
-int A[3][3] = {{6,2,5},{0,1,3},{4,9,8}};
-int * p;
-p = A[1];
-
-printf("%d\n", A);
-printf("%d\n", A[0]);
-printf("%d\n", p);
-
+   int a[3][3] = {6, 2,5,0,1,3};
+   printf("%d  \n", a);
+   printf("%d \n",**a);
+   printf("%d \n",&a);
 
 }
 
 
-//       *
-//      ***
-//     *****
-//    *******
-//   *********
+
+
