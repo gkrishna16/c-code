@@ -1,0 +1,19 @@
+---
+team: teamGopal
+city: Ottawa
+year_founded: 1946
+is_legend: true
+backgroud: lorem lipsum  lorem lipsum lorem lipsum lorem lipsum lorem lipsum lorem lipsum
+famous_players:
+  - Joel Embid
+  - Allen Iversion
+  - Julius Erving
+famous_player_2:
+  - Jones
+  - Indiana
+  - Lemon
+  - Ottawa
+management_staff:
+  genera_manager: Elton Brand
+  president: Donald Trump
+  head_coach: Doc Rivers

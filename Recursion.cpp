@@ -1,23 +1,32 @@
 #include <iostream>
+#include <string>
 using namespace std;
-
-void printStar10(int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        int stars = i;
-        if (i > n)
-            stars = 2 * n - i;
-        for (int j = 0; j <= stars; j++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
-}
 
 int main()
 {
+    int n;
+    cout << "Enter the number of rows :" << endl;
+    cin >> n;
+    cout << "The result now ----" << endl;
 
-    printStar10(10);
+    int rows = 1;
+    while (rows <= n)
+    {
+        int space = n - rows;
+        while (space)
+        {
+            cout << " ";
+            space = space - 1;
+        }
+        int stars = 1;
+        while (stars <= rows)
+        {
+            cout << "*";
+            stars = stars + 1;
+        }
+        cout << endl;
+        rows++;
+    }
+
+    return 0;
 }
