@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+int main()
+{
 
     int n = 5;
     // put the pointer in a variable
@@ -17,8 +18,7 @@ int main () {
     int *ptr = &v;
     *ptr = 70;
 
-    cout << 
-    &v << endl;
+    cout << &v << endl;
 
     return 1;
 }
