@@ -39,5 +39,14 @@ int main()
     // *ptr = 100;
     // cout << ptr << endl;
 
+    // int a = 10;
+    // char b = 'x';
+    // void *p = &a;
+    // p = &b;
+    // cout << p;
+    // cout << "This is a C++ file" << endl;
+
+    cout << "This is a C++ file." << endl;
+
     return 1;
 }
